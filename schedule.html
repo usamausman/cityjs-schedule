@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CityJS 2026 — Schedule</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+      margin: 0;
+      padding: 24px;
+    }
+
+    h1 {
+      margin: 0 0 4px;
+      font-size: 1.6rem;
+    }
+
+    .subtitle {
+      color: #666;
+      margin: 0 0 24px;
+      font-size: 0.95rem;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 800px;
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    }
+
+    thead th {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 12px 14px;
+      text-align: left;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: .03em;
+      white-space: nowrap;
+    }
+
+    thead th.time-header {
+      width: 60px;
+    }
+
+    tbody tr:nth-child(even) td:not(.break):not(.talk) {
+      background: #fafafa;
+    }
+
+    tbody tr + tr td {
+      border-top: 1px solid #eee;
+    }
+
+    td {
+      padding: 10px 14px;
+      vertical-align: top;
+      font-size: 0.85rem;
+    }
+
+    td.time {
+      color: #888;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+      font-size: 0.8rem;
+      padding-top: 13px;
+    }
+
+    td.empty {
+      background: #f9f9f9;
+    }
+
+    td.break {
+      background: #f0f0f0;
+      color: #888;
+    }
+
+    td.break .talk-title {
+      font-weight: 500;
+      color: #777;
+    }
+
+    td.talk {
+      background: #fff;
+    }
+
+    .talk-title {
+      font-weight: 600;
+      margin-bottom: 4px;
+      line-height: 1.35;
+    }
+
+    .speaker-name {
+      font-weight: 500;
+      color: #333;
+      margin-top: 5px;
+    }
+
+    .speaker-role {
+      color: #888;
+      font-size: 0.78rem;
+      margin-top: 2px;
+    }
+
+    .location {
+      color: #aaa;
+      font-size: 0.75rem;
+      margin-top: 3px;
+    }
+
+    .tags {
+      margin-top: 7px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .tag {
+      background: #eef2ff;
+      color: #4f46e5;
+      font-size: 0.7rem;
+      padding: 2px 7px;
+      border-radius: 99px;
+      font-weight: 500;
+    }
+
+    tr.current-row td {
+      background: #fffbe6 !important;
+      border-top: 2px solid #f59e0b;
+      border-bottom: 2px solid #f59e0b;
+    }
+
+    tr.current-row td.time {
+      color: #d97706;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <h1>CityJS London 2026</h1>
+  <p class="subtitle">Day 3 — 17 April 2026</p>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th class="time-header">Time</th><th>Great Hall</th><th>Small Hall</th><th>Session Room 1</th><th>Session Room 2</th></tr>
+      </thead>
+      <tbody>
+        <tr data-time="08:30"><td class="time">08:30</td><td class="break"><div class="talk-title">Registration and Breakfast</div><div class="location">Main Room</div></td><td class="break"><div class="talk-title">Breakfast</div></td><td class="break"><div class="talk-title">Breakfast</div></td><td class="break"><div class="talk-title">Breakfast</div></td></tr><tr data-time="09:15"><td class="time">09:15</td><td class="break"><div class="talk-title">Start of Track 1</div><div class="speaker-name">Sara Vieira</div><div class="speaker-role">Senior Frontend Developer</div></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="09:30"><td class="time">09:30</td><td class="talk"><div class="talk-title">The New UX</div><div class="speaker-name">Tejas Kumar</div><div class="speaker-role">Director, Developer Relations @ IBM</div><div class="tags"><span class="tag">Contejas</span><span class="tag">AIDrivenUX</span><span class="tag">VoiceMultimodalInterfaces</span></div></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="09:55"><td class="time">09:55</td><td class="empty"></td><td class="break"><div class="talk-title">Start of Track 2</div><div class="speaker-name">Tony Edwards</div><div class="speaker-role">Sapphire Holidays</div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="10:00"><td class="time">10:00</td><td class="talk"><div class="talk-title">From Vibe Coding to Vibe Engineering</div><div class="speaker-name">Kitze</div><div class="speaker-role">Sizzy</div><div class="tags"><span class="tag">AI-Assisted Development</span><span class="tag">VibeCoding</span><span class="tag">Future of Frontend</span></div></td><td class="talk"><div class="talk-title">Beyond the Framework</div><div class="speaker-name">Daniel Roe</div><div class="speaker-role">Framework Lead @ Nuxt</div><div class="tags"><span class="tag">Web Architecture</span><span class="tag">Frontend Tooling</span><span class="tag">Sustainable Software</span></div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="10:25"><td class="time">10:25</td><td class="talk"><div class="talk-title">The New Node.js: Built-in Batteries and the Road Ahead</div><div class="speaker-name">Matteo Collina</div><div class="speaker-role">Platformatic Co-Founder &amp; CTO- Node.js TSC member</div><div class="tags"><span class="tag">NodeJS</span><span class="tag">BackendDev</span><span class="tag">OpenSource</span></div></td><td class="talk"><div class="talk-title">React Beyond Components: The Rise of Generative UI</div><div class="speaker-name">Ruben Casas</div><div class="speaker-role">Staff Engineer @ Postman</div><div class="tags"><span class="tag">React</span><span class="tag">GenerativeUI</span><span class="tag">LLMs</span></div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="10:55"><td class="time">10:55</td><td class="break"><div class="talk-title">Break</div><div class="location">Main Room</div></td><td class="break"><div class="talk-title">Break</div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="11:20"><td class="time">11:20</td><td class="talk"><div class="talk-title">Implementing Server Driven UI</div><div class="speaker-name">Dan Neciu</div><div class="speaker-role">Staff Engineer</div></td><td class="talk"><div class="talk-title">Achieving 93% Faster Next.js in (your) Kubernetes with Watt</div><div class="speaker-name">Paolo Insogna</div><div class="speaker-role">Platformatic</div></td><td class="break"><div class="talk-title">Start of Track 3</div><div class="speaker-name">Mihchael Hoffman</div><div class="speaker-role">Senior Developer</div></td><td class="break"><div class="talk-title">Start of Track 4</div><div class="speaker-name">Praveen Kumar Purushothaman</div><div class="speaker-role">Full Stack / JavaScript</div></td></tr><tr data-time="11:25"><td class="time">11:25</td><td class="empty"></td><td class="empty"></td><td class="talk"><div class="talk-title">From Isolation to Acceleration: Building the fastest payment platform on an iFrame</div><div class="speaker-name">Eduardo Aparicio Cardenes</div><div class="speaker-role">Senior Software Engineer at Happening</div><div class="tags"><span class="tag">Web Performance</span><span class="tag">Architecture</span><span class="tag">Vue.js</span></div></td><td class="talk"><div class="talk-title">Securing AI-Generated Code with Semgrep</div><div class="speaker-name">Paul Ibeabuchi</div><div class="speaker-role">Supabase</div><div class="tags"><span class="tag">AI-assisted development</span><span class="tag">Application security</span><span class="tag">Secure software development</span></div></td></tr><tr data-time="11:45"><td class="time">11:45</td><td class="talk"><div class="talk-title">Pear - P2Pify all the apps</div><div class="speaker-name">David Mark Clements</div><div class="speaker-role">Tether</div><div class="tags"><span class="tag">p2p</span><span class="tag">peer-to-peer</span><span class="tag">ota-updates. p2p-ota</span></div></td><td class="talk"><div class="talk-title">A personal AI agent, off cloud, for $100</div><div class="speaker-name">Alvin Bryan</div><div class="speaker-role">Developer Advocate at Yoto</div><div class="tags"><span class="tag">AI</span><span class="tag">PrivacyTech</span><span class="tag">WebGPU</span></div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="12:05"><td class="time">12:05</td><td class="talk"><div class="talk-title">Segmentation fault! Low-level debugging for JS developers</div><div class="speaker-name">Anna Henningsen</div><div class="speaker-role">Staff Engineer @ MongoDB</div><div class="location">Serafeio</div></td><td class="talk"><div class="talk-title">OTel You It&#x27;s Not Just for Backend!</div><div class="speaker-name">Carly Richmond</div><div class="speaker-role">Senior Developer Advocate at Elastic</div><div class="tags"><span class="tag">Frontend Observability</span><span class="tag">OpenTelemetry</span><span class="tag">Web Performance Monitoring</span></div></td><td class="talk"><div class="talk-title">WebAssembly + JavaScript: Partners, Not Competitors and why NOW is the right time to pay attention</div><div class="speaker-name">Aprajita Verma</div><div class="speaker-role">Mycom, Frontend Architect</div><div class="location">Shankar Lal Concert Hall</div><div class="tags"><span class="tag">Performance</span><span class="tag">Optimization</span><span class="tag">Scalability</span></div></td><td class="talk"><div class="talk-title">Embeddable Agentic SaaS with A2UI and Microfrontends</div><div class="speaker-name">Alexander Günsche</div><div class="speaker-role">Senior Solutions Architect at AWS</div><div class="tags"><span class="tag">A2UI</span><span class="tag">Agentic AI</span><span class="tag">Microfrontends</span></div></td></tr><tr data-time="12:25"><td class="time">12:25</td><td class="talk"><div class="talk-title">The Other Local-First</div><div class="speaker-name">Rich Harris</div><div class="speaker-role">Vercel</div></td><td class="talk"><div class="talk-title">Replacing form libraries with native web APIs</div><div class="speaker-name">Trust Jamin Okpukoro</div><div class="speaker-role">Uploadcare, Developer Advocate</div><div class="tags"><span class="tag">Native Web APIs</span><span class="tag">HTML Forms</span><span class="tag">Web Performance</span></div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="12:45"><td class="time">12:45</td><td class="talk"><div class="talk-title">Video Optimization for the Web: The Missing Piece in Lighthouse</div><div class="speaker-name">Harshit Budhraja</div><div class="speaker-role">ImageKit</div><div class="tags"><span class="tag">videooptimisation</span><span class="tag">webperformance</span><span class="tag">imagekit</span></div></td><td class="talk"><div class="talk-title">Look ma, no hands! Multimodal AI-Agents in the browser</div><div class="speaker-name">Nico Martin</div><div class="speaker-role">Hugging Face - Machine Learning Engineer</div><div class="tags"><span class="tag">Multimodal AI</span><span class="tag">Browser-Based AI</span><span class="tag">Privacy-Preserving Technology</span></div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="13:00"><td class="time">13:00</td><td class="empty"></td><td class="empty"></td><td class="break"><div class="talk-title">Lunch</div></td><td class="empty"></td></tr><tr data-time="13:05"><td class="time">13:05</td><td class="break"><div class="talk-title">Lunch</div><div class="location">Main Room</div></td><td class="break"><div class="talk-title">Lunch</div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="14:00"><td class="time">14:00</td><td class="talk"><div class="talk-title">Code Golf - Getting A Hole-in-One-(Liner)</div><div class="speaker-name">Steven Goodwin</div><div class="speaker-role">Unemployable computer geek</div><div class="tags"><span class="tag">JavaScript Internals</span><span class="tag">Code Golfing</span><span class="tag">Language Quirks</span></div></td><td class="talk"><div class="talk-title">How to choose the right AI model for your project</div><div class="speaker-name">Ali Spivak</div><div class="speaker-role">Google</div><div class="tags"><span class="tag">AI</span><span class="tag">GenerativeAI</span><span class="tag">MachineLearning</span></div></td><td class="talk"><div class="talk-title">Pigeon-Driven Development</div><div class="speaker-name">Scott Spence</div><div class="speaker-role">XtendOps</div><div class="tags"><span class="tag">AIInPractice</span><span class="tag">SafeAndReliableAI</span><span class="tag">Svelte</span></div></td><td class="talk"><div class="talk-title">From Executor to Orchestrator: Building in the Age of AI Agents</div><div class="speaker-name">Nkechi Anyanwu</div><div class="speaker-role">Vouchsafe</div><div class="tags"><span class="tag">AI Orchestration</span><span class="tag">AI-Assisted Development</span><span class="tag">Builder Mindset</span></div></td></tr><tr data-time="14:20"><td class="time">14:20</td><td class="talk"><div class="talk-title">Women in Tech the Panel</div><div class="speaker-name">Julia Biro</div><div class="speaker-role">Developer Experience</div><div class="tags"><span class="tag">WomenInTech</span></div></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="14:25"><td class="time">14:25</td><td class="empty"></td><td class="talk"><div class="talk-title">Building Resilient UIs with React</div><div class="speaker-name">Faris Aziz</div><div class="speaker-role">Staff Software Engineer @ Smallpdf</div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="14:45"><td class="time">14:45</td><td class="empty"></td><td class="empty"></td><td class="talk"><div class="talk-title">Effortlessly defend your dev machine from North Koreans on NPM</div><div class="speaker-name">Zbyszek Tenerowicz</div><div class="speaker-role">LavaMoat R&amp;D team Lead at Consensys</div><div class="tags"><span class="tag">Security</span><span class="tag">NPM</span><span class="tag">Packages</span></div></td><td class="empty"></td></tr><tr data-time="14:50"><td class="time">14:50</td><td class="empty"></td><td class="talk"><div class="talk-title">A Decade and Counting: React’s Rhapsody of Life</div><div class="speaker-name">Matheus Albuquerque</div><div class="speaker-role">Medallia</div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="14:55"><td class="time">14:55</td><td class="talk"><div class="talk-title">Federation of Specialists: From Module Federation to AI Orchestration</div><div class="speaker-name">Nestor Lopez</div><div class="speaker-role">Zephyr Cloud</div><div class="tags"><span class="tag">AI agents</span><span class="tag">composable AI architecture</span><span class="tag">production AI systems</span></div></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="15:10"><td class="time">15:10</td><td class="talk"><div class="talk-title">Ripple: the Good Parts of React, Svelte, and Solid</div><div class="speaker-name">Erik Rasmussen</div><div class="speaker-role">Fuse Energy</div><div class="tags"><span class="tag">webdev</span><span class="tag">reactalternatives</span><span class="tag">#frameworks</span></div></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="15:20"><td class="time">15:20</td><td class="empty"></td><td class="empty"></td><td class="talk"><div class="talk-title">Off-the-main-thread : Building fast, smooth and future-proof web apps.</div><div class="speaker-name">Ananya Kittane Yogananda</div><div class="speaker-role">Senior Engineer - Web standards technologist, Samsung R&amp;D Institute UK</div><div class="tags"><span class="tag">Main Thread</span><span class="tag">Web Performance</span><span class="tag">JavaScript Optimization</span></div></td><td class="talk"><div class="talk-title">Six-Month Refactor in Six Days: Using AI to Update Deprecated JS Libraries</div><div class="speaker-name">Mo Khazali</div><div class="speaker-role">Associate Partner, AI Tooling @ Theodo</div><div class="tags"><span class="tag">AI-driven refactoring</span><span class="tag">JavaScript tech debt</span><span class="tag">styled-components migration</span></div></td></tr><tr data-time="15:25"><td class="time">15:25</td><td class="empty"></td><td class="talk"><div class="talk-title">Improve your e-commerce with Agents and Model Context Protocol.</div><div class="speaker-name">Chris Noring</div><div class="speaker-role">Microsoft</div><div class="tags"><span class="tag">AI in E-commerce</span><span class="tag">AI Agents &amp; MCP</span><span class="tag">Conversion Optimization</span></div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="15:30"><td class="time">15:30</td><td class="talk"><div class="talk-title">The Dark Side of Micro-Frontends</div><div class="speaker-name">Luca Mezzalira</div><div class="speaker-role">Software Architect @AWS</div><div class="tags"><span class="tag">MicroFrontends</span><span class="tag">FrontendArchitecture</span><span class="tag">WebDev</span></div></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="15:45"><td class="time">15:45</td><td class="empty"></td><td class="talk"><div class="talk-title">JSBT: A Binary Serialization Format for Real JavaScript Object Graphs</div><div class="speaker-name">Alexander Cheprasov</div><div class="speaker-role">Senior Software Engineer, Valstro (UK) Ltd</div><div class="tags"><span class="tag">JavaScript</span><span class="tag">Performance</span><span class="tag">DataSerialization</span></div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="15:50"><td class="time">15:50</td><td class="break"><div class="talk-title">Break</div><div class="location">Main Room</div></td><td class="empty"></td><td class="break"><div class="talk-title">Break</div></td><td class="empty"></td></tr><tr data-time="16:00"><td class="time">16:00</td><td class="talk"><div class="talk-title">The Future of the AI Bubble (Panel)</div><div class="speaker-name">David Benson</div><div class="speaker-role">Development Consultant Disaster and Design</div><div class="tags"><span class="tag">AI Age</span><span class="tag">Panel</span><span class="tag">Future of Development</span></div></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="16:10"><td class="time">16:10</td><td class="empty"></td><td class="talk"><div class="talk-title">JS at the speed of Rust: Oxc</div><div class="speaker-name">Jim Dummett</div><div class="speaker-role">Void(0)</div><div class="tags"><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">Rust</span></div></td><td class="empty"></td><td class="empty"></td></tr><tr data-time="16:45"><td class="time">16:45</td><td class="talk"><div class="talk-title">JavaScript: The Best Part</div><div class="speaker-name">Douglas Crockford</div><div class="speaker-role">JSON Creator</div><div class="tags"><span class="tag">javascript bestpart</span></div></td><td class="empty"></td><td class="empty"></td><td class="empty"></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <script>
+    function highlightCurrentRow() {
+      const now = new Date();
+      const hhmm = now.getHours().toString().padStart(2, '0') + ':' + now.getMinutes().toString().padStart(2, '0');
+      const rows = Array.from(document.querySelectorAll('tbody tr[data-time]'));
+
+      // Find the last row whose time is <= now
+      let current = null;
+      for (const row of rows) {
+        if (row.dataset.time <= hhmm) current = row;
+        else break;
+      }
+
+      rows.forEach(r => r.classList.remove('current-row'));
+      if (current) {
+        current.classList.add('current-row');
+        current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+
+    highlightCurrentRow();
+    setInterval(highlightCurrentRow, 60000);
+  </script>
+</body>
+</html>

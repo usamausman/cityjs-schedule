@@ -1,0 +1,590 @@
+[
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 08:30",
+    "location": "Main Room",
+    "title": "Registration and Breakfast",
+    "speaker": null,
+    "speaker_role": null,
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 09:15",
+    "location": null,
+    "title": "Start of Track 1",
+    "speaker": "Sara Vieira",
+    "speaker_role": "Senior Frontend Developer",
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 09:30",
+    "location": null,
+    "title": "The New UX",
+    "speaker": "Tejas Kumar",
+    "speaker_role": "Director, Developer Relations @ IBM",
+    "tags": [
+      "Contejas",
+      "AIDrivenUX",
+      "VoiceMultimodalInterfaces"
+    ]
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 10:00",
+    "location": null,
+    "title": "From Vibe Coding to Vibe Engineering",
+    "speaker": "Kitze",
+    "speaker_role": "Sizzy",
+    "tags": [
+      "AI-Assisted Development",
+      "VibeCoding",
+      "Future of Frontend"
+    ]
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 10:25",
+    "location": null,
+    "title": "The New Node.js: Built-in Batteries and the Road Ahead",
+    "speaker": "Matteo Collina",
+    "speaker_role": "Platformatic Co-Founder & CTO- Node.js TSC member",
+    "tags": [
+      "NodeJS",
+      "BackendDev",
+      "OpenSource"
+    ]
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 10:55",
+    "location": "Main Room",
+    "title": "Break",
+    "speaker": null,
+    "speaker_role": null,
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 11:20",
+    "location": null,
+    "title": "Implementing Server Driven UI",
+    "speaker": "Dan Neciu",
+    "speaker_role": "Staff Engineer",
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 11:45",
+    "location": null,
+    "title": "Pear - P2Pify all the apps",
+    "speaker": "David Mark Clements",
+    "speaker_role": "Tether",
+    "tags": [
+      "p2p",
+      "peer-to-peer",
+      "ota-updates. p2p-ota"
+    ]
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 12:05",
+    "location": "Serafeio",
+    "title": "Segmentation fault! Low-level debugging for JS developers",
+    "speaker": "Anna Henningsen",
+    "speaker_role": "Staff Engineer @ MongoDB",
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 12:25",
+    "location": null,
+    "title": "The Other Local-First",
+    "speaker": "Rich Harris",
+    "speaker_role": "Vercel",
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 12:45",
+    "location": null,
+    "title": "Video Optimization for the Web: The Missing Piece in Lighthouse",
+    "speaker": "Harshit Budhraja",
+    "speaker_role": "ImageKit",
+    "tags": [
+      "videooptimisation",
+      "webperformance",
+      "imagekit"
+    ]
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 13:05",
+    "location": "Main Room",
+    "title": "Lunch",
+    "speaker": null,
+    "speaker_role": null,
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 14:00",
+    "location": null,
+    "title": "Code Golf - Getting A Hole-in-One-(Liner)",
+    "speaker": "Steven Goodwin",
+    "speaker_role": "Unemployable computer geek",
+    "tags": [
+      "JavaScript Internals",
+      "Code Golfing",
+      "Language Quirks"
+    ]
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 14:20",
+    "location": null,
+    "title": "Women in Tech the Panel",
+    "speaker": "Julia Biro",
+    "speaker_role": "Developer Experience",
+    "tags": [
+      "WomenInTech"
+    ]
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 14:55",
+    "location": null,
+    "title": "Federation of Specialists: From Module Federation to AI Orchestration",
+    "speaker": "Nestor Lopez",
+    "speaker_role": "Zephyr Cloud",
+    "tags": [
+      "AI agents",
+      "composable AI architecture",
+      "production AI systems"
+    ]
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 15:10",
+    "location": null,
+    "title": "Ripple: the Good Parts of React, Svelte, and Solid",
+    "speaker": "Erik Rasmussen",
+    "speaker_role": "Fuse Energy",
+    "tags": [
+      "webdev",
+      "reactalternatives",
+      "#frameworks"
+    ]
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 15:30",
+    "location": null,
+    "title": "The Dark Side of Micro-Frontends",
+    "speaker": "Luca Mezzalira",
+    "speaker_role": "Software Architect @AWS",
+    "tags": [
+      "MicroFrontends",
+      "FrontendArchitecture",
+      "WebDev"
+    ]
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2025 - 15:50",
+    "location": "Main Room",
+    "title": "Break",
+    "speaker": null,
+    "speaker_role": null,
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 16:00",
+    "location": null,
+    "title": "The Future of the AI Bubble (Panel)",
+    "speaker": "David Benson",
+    "speaker_role": "Development Consultant Disaster and Design",
+    "tags": [
+      "AI Age",
+      "Panel",
+      "Future of Development"
+    ]
+  },
+  {
+    "track": "Day 3 - Great Hall - Ground Floor",
+    "time": "17-04-2026 - 16:45",
+    "location": null,
+    "title": "JavaScript: The Best Part",
+    "speaker": "Douglas Crockford",
+    "speaker_role": "JSON Creator",
+    "tags": [
+      "javascript bestpart"
+    ]
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 08:30",
+    "location": null,
+    "title": "Breakfast",
+    "speaker": null,
+    "speaker_role": null,
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 09:55",
+    "location": null,
+    "title": "Start of Track 2",
+    "speaker": "Tony Edwards",
+    "speaker_role": "Sapphire Holidays",
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 10:00",
+    "location": null,
+    "title": "Beyond the Framework",
+    "speaker": "Daniel Roe",
+    "speaker_role": "Framework Lead @ Nuxt",
+    "tags": [
+      "Web Architecture",
+      "Frontend Tooling",
+      "Sustainable Software"
+    ]
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 10:25",
+    "location": null,
+    "title": "React Beyond Components: The Rise of Generative UI",
+    "speaker": "Ruben Casas",
+    "speaker_role": "Staff Engineer @ Postman",
+    "tags": [
+      "React",
+      "GenerativeUI",
+      "LLMs"
+    ]
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 10:55",
+    "location": null,
+    "title": "Break",
+    "speaker": null,
+    "speaker_role": null,
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 11:20",
+    "location": null,
+    "title": "Achieving 93% Faster Next.js in (your) Kubernetes with Watt",
+    "speaker": "Paolo Insogna",
+    "speaker_role": "Platformatic",
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 11:45",
+    "location": null,
+    "title": "A personal AI agent, off cloud, for $100",
+    "speaker": "Alvin Bryan",
+    "speaker_role": "Developer Advocate at Yoto",
+    "tags": [
+      "AI",
+      "PrivacyTech",
+      "WebGPU"
+    ]
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 12:05",
+    "location": null,
+    "title": "OTel You It's Not Just for Backend!",
+    "speaker": "Carly Richmond",
+    "speaker_role": "Senior Developer Advocate at Elastic",
+    "tags": [
+      "Frontend Observability",
+      "OpenTelemetry",
+      "Web Performance Monitoring"
+    ]
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 12:25",
+    "location": null,
+    "title": "Replacing form libraries with native web APIs",
+    "speaker": "Trust Jamin Okpukoro",
+    "speaker_role": "Uploadcare, Developer Advocate",
+    "tags": [
+      "Native Web APIs",
+      "HTML Forms",
+      "Web Performance"
+    ]
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 12:45",
+    "location": null,
+    "title": "Look ma, no hands! Multimodal AI-Agents in the browser",
+    "speaker": "Nico Martin",
+    "speaker_role": "Hugging Face - Machine Learning Engineer",
+    "tags": [
+      "Multimodal AI",
+      "Browser-Based AI",
+      "Privacy-Preserving Technology"
+    ]
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 13:05",
+    "location": null,
+    "title": "Lunch",
+    "speaker": null,
+    "speaker_role": null,
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-02-2026 - 14:00",
+    "location": null,
+    "title": "How to choose the right AI model for your project",
+    "speaker": "Ali Spivak",
+    "speaker_role": "Google",
+    "tags": [
+      "AI",
+      "GenerativeAI",
+      "MachineLearning"
+    ]
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 14:25",
+    "location": null,
+    "title": "Building Resilient UIs with React",
+    "speaker": "Faris Aziz",
+    "speaker_role": "Staff Software Engineer @ Smallpdf",
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 14:50",
+    "location": null,
+    "title": "A Decade and Counting: React’s Rhapsody of Life",
+    "speaker": "Matheus Albuquerque",
+    "speaker_role": "Medallia",
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 15:25",
+    "location": null,
+    "title": "Improve your e-commerce with Agents and Model Context Protocol.",
+    "speaker": "Chris Noring",
+    "speaker_role": "Microsoft",
+    "tags": [
+      "AI in E-commerce",
+      "AI Agents & MCP",
+      "Conversion Optimization"
+    ]
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 15:45",
+    "location": null,
+    "title": "JSBT: A Binary Serialization Format for Real JavaScript Object Graphs",
+    "speaker": "Alexander Cheprasov",
+    "speaker_role": "Senior Software Engineer, Valstro (UK) Ltd",
+    "tags": [
+      "JavaScript",
+      "Performance",
+      "DataSerialization"
+    ]
+  },
+  {
+    "track": "Day 3 - Small Hall - Level 1",
+    "time": "17-04-2026 - 16:10",
+    "location": null,
+    "title": "JS at the speed of Rust: Oxc",
+    "speaker": "Jim Dummett",
+    "speaker_role": "Void(0)",
+    "tags": [
+      "JavaScript",
+      "TypeScript",
+      "Rust"
+    ]
+  },
+  {
+    "track": "Day 3 - Session Room 1 - Level -1",
+    "time": "17-04-2026 - 08:30",
+    "location": null,
+    "title": "Breakfast",
+    "speaker": null,
+    "speaker_role": null,
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Session Room 1 - Level -1",
+    "time": "17-04-2026 - 11:20",
+    "location": null,
+    "title": "Start of Track 3",
+    "speaker": "Mihchael Hoffman",
+    "speaker_role": "Senior Developer",
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Session Room 1 - Level -1",
+    "time": "17-04-2026 - 11:25",
+    "location": null,
+    "title": "From Isolation to Acceleration: Building the fastest payment platform on an iFrame",
+    "speaker": "Eduardo Aparicio Cardenes",
+    "speaker_role": "Senior Software Engineer at Happening",
+    "tags": [
+      "Web Performance",
+      "Architecture",
+      "Vue.js"
+    ]
+  },
+  {
+    "track": "Day 3 - Session Room 1 - Level -1",
+    "time": "17-02-2026 - 12:05",
+    "location": "Shankar Lal Concert Hall",
+    "title": "WebAssembly + JavaScript: Partners, Not Competitors and why NOW is the right time to pay attention",
+    "speaker": "Aprajita Verma",
+    "speaker_role": "Mycom, Frontend Architect",
+    "tags": [
+      "Performance",
+      "Optimization",
+      "Scalability"
+    ]
+  },
+  {
+    "track": "Day 3 - Session Room 1 - Level -1",
+    "time": "17-04-2026 - 13:00",
+    "location": null,
+    "title": "Lunch",
+    "speaker": null,
+    "speaker_role": null,
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Session Room 1 - Level -1",
+    "time": "17-04-2026 - 14:00",
+    "location": null,
+    "title": "Pigeon-Driven Development",
+    "speaker": "Scott Spence",
+    "speaker_role": "XtendOps",
+    "tags": [
+      "AIInPractice",
+      "SafeAndReliableAI",
+      "Svelte"
+    ]
+  },
+  {
+    "track": "Day 3 - Session Room 1 - Level -1",
+    "time": "17-04-2026 - 14:45",
+    "location": null,
+    "title": "Effortlessly defend your dev machine from North Koreans on NPM",
+    "speaker": "Zbyszek Tenerowicz",
+    "speaker_role": "LavaMoat R&D team Lead at Consensys",
+    "tags": [
+      "Security",
+      "NPM",
+      "Packages"
+    ]
+  },
+  {
+    "track": "Day 3 - Session Room 1 - Level -1",
+    "time": "17-04-2026 - 15:20",
+    "location": null,
+    "title": "Off-the-main-thread : Building fast, smooth and future-proof web apps.",
+    "speaker": "Ananya Kittane Yogananda",
+    "speaker_role": "Senior Engineer - Web standards technologist, Samsung R&D Institute UK",
+    "tags": [
+      "Main Thread",
+      "Web Performance",
+      "JavaScript Optimization"
+    ]
+  },
+  {
+    "track": "Day 3 - Session Room 1 - Level -1",
+    "time": "17-04-2026 - 15:50",
+    "location": null,
+    "title": "Break",
+    "speaker": null,
+    "speaker_role": null,
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Session Room 2 - Level -1",
+    "time": "17-04-2026 - 08:30",
+    "location": null,
+    "title": "Breakfast",
+    "speaker": null,
+    "speaker_role": null,
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Session Room 2 - Level -1",
+    "time": "17-04-2026 - 11:20",
+    "location": null,
+    "title": "Start of Track 4",
+    "speaker": "Praveen Kumar Purushothaman",
+    "speaker_role": "Full Stack / JavaScript",
+    "tags": []
+  },
+  {
+    "track": "Day 3 - Session Room 2 - Level -1",
+    "time": "17-04-2026 - 11:25",
+    "location": null,
+    "title": "Securing AI-Generated Code with Semgrep",
+    "speaker": "Paul Ibeabuchi",
+    "speaker_role": "Supabase",
+    "tags": [
+      "AI-assisted development",
+      "Application security",
+      "Secure software development"
+    ]
+  },
+  {
+    "track": "Day 3 - Session Room 2 - Level -1",
+    "time": "17-04-2026 - 12:05",
+    "location": null,
+    "title": "Embeddable Agentic SaaS with A2UI and Microfrontends",
+    "speaker": "Alexander Günsche",
+    "speaker_role": "Senior Solutions Architect at AWS",
+    "tags": [
+      "A2UI",
+      "Agentic AI",
+      "Microfrontends"
+    ]
+  },
+  {
+    "track": "Day 3 - Session Room 2 - Level -1",
+    "time": "17-04-2026 - 14:00",
+    "location": null,
+    "title": "From Executor to Orchestrator: Building in the Age of AI Agents",
+    "speaker": "Nkechi Anyanwu",
+    "speaker_role": "Vouchsafe",
+    "tags": [
+      "AI Orchestration",
+      "AI-Assisted Development",
+      "Builder Mindset"
+    ]
+  },
+  {
+    "track": "Day 3 - Session Room 2 - Level -1",
+    "time": "17-04-2026 - 15:20",
+    "location": null,
+    "title": "Six-Month Refactor in Six Days: Using AI to Update Deprecated JS Libraries",
+    "speaker": "Mo Khazali",
+    "speaker_role": "Associate Partner, AI Tooling @ Theodo",
+    "tags": [
+      "AI-driven refactoring",
+      "JavaScript tech debt",
+      "styled-components migration"
+    ]
+  }
+]
