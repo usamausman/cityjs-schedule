@@ -27,7 +27,8 @@
     }
 
     .table-wrapper {
-      overflow-x: auto;
+      overflow: auto;
+      max-height: calc(100vh - 100px);
       box-shadow: 0 1px 4px rgba(0,0,0,.1);
     }
 
@@ -47,13 +48,16 @@
       font-weight: 600;
       letter-spacing: .03em;
       white-space: nowrap;
+      position: sticky;
+      top: 0;
+      z-index: 3;
     }
 
     thead th.time-header {
       width: 60px;
       position: sticky;
       left: 0;
-      z-index: 2;
+      z-index: 4;
     }
 
     tbody tr:nth-child(even) td:not(.break):not(.talk) {
